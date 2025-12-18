@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    font-size: 1.2em;
+    background-image: ;
+    min-height: 100vh;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    margin: 0;
+    padding: 15px 0;
+    border-bottom: 10px solid red;
+    height: 60px;
+    line-height: 60px;
+}
+
+.Headerlinks {
+    float: right;
+    font-size: 1.2em;
+}
+
+header a:first-child {
+    float: left;
+}
+
+header a {
+    margin: auto 15px;
+    color: red;
+}
+
+header > a > img {
+    height: 60px;
+}
+
+.currentPage {
+    text-decoration: underline;
+}
