@@ -19,11 +19,11 @@ main picture {
 }
 
 main picture > img {
-    max-width: 400px;
+    max-width: 350px;
 }
 
 article {
-    height: 50vh;
+    height: 60vh;
     background-color: white;
     display: block;
     text-align: justify;
