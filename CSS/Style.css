@@ -1,3 +1,8 @@
+body {
+    min-height: 100vh;
+    background-image: url("../Images/Homepage image.jpg");
+}
+
 footer {
     position: relative;
     height: 250px;
