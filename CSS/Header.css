@@ -23,7 +23,6 @@ header {
     font-size: 1.2em;
 }
 
-
 header a:first-child {
     float: left;
 }
@@ -41,7 +40,35 @@ header > a > img {
     text-decoration: underline;
 }
 
+footer {
+    height: 20%;
+    border-top: 10px solid red;
+    background-color: lightgrey;
+    text-align: center;
+    font-size: 0.9em;
+    line-height: 50px;
+    width: 100%;
+    margin: 0 auto;
+}
 
+.footer div {
+    display: inline-block;
+    text-align: left;
+    margin: 20px 100px;
+}
+
+.footer div a {
+    display: block;
+    color: darkslategrey;
+}
+
+footer .copyright {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    color: darkslategrey;
+    margin: 0 auto;
+}
 
 @media (min-width: 800px) {
     .Headerlinks {
@@ -51,5 +78,13 @@ header > a > img {
 
     .Headerlinks {
         display: inline-block;
+    }
+
+    footer .copyright {
+        margin: 0 auto;
+    }
+
+    footer {
+        height: 250px;
     }
 }
