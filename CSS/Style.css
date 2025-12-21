@@ -49,6 +49,10 @@ article {
     text-align: justify;
 }
 
+.copyright a {
+    color: darkslategrey;
+}
+
 @media screen and (min-width: 800px) {
 
     main {
