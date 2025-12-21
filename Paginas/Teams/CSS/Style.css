@@ -1,0 +1,117 @@
+body {
+    overflow: hidden;
+}
+
+.Season7 {
+    background-color: #191919;
+    border-bottom: 10px solid red;
+    min-height: 10%;
+}
+
+.Season7 img {
+    width: 60%;
+    padding: 10px 0;
+}
+
+main  div {
+    background-color: white;
+    display: flex;
+    border-bottom: black 5px solid;
+    padding:0;
+}
+
+main div div {
+    border: none;
+}
+
+main div a {
+    color: black;
+    margin: 20px 10px 20px 0;
+}
+
+main a:first-child {
+    margin-left: 10px;
+}
+
+.Teams {
+    border: none;
+    background-color: #fcfcfc;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    height: calc(100vh - 260px);
+}
+
+h1 {
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: black 5px solid;
+}
+
+.team {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    box-shadow: -10px 0 15px -5px rgba(0, 0, 0, 0.3), 10px 0 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.team img {
+    max-width: 300px;
+}
+
+.team p {
+    align-self: flex-start;
+    margin: 10px auto 0 10px;
+}
+
+.team div {
+    align-self: flex-start;
+}
+
+.team ol {
+    align-self: flex-start;
+    margin: 0 auto 5px 10px;
+}
+
+.lowercase {
+    font-weight: normal;
+}
+
+@media screen and (min-width: 800px) {
+    .Season7 img {
+        width: 40%;
+    }
+
+    main div a {
+        color: black;
+        margin: 20px 20px 20px 0;
+    }
+
+    main a:first-child {
+        margin-left: 30px;
+    }
+
+    .Teams {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        height: calc(100vh - 350px);
+    }
+
+    .team {
+        border-radius: 20px;
+        width: 25%;
+        margin: 15px 20px;
+    }
+
+    .team img {
+        max-width: 350px;
+    }
+
+
+}
