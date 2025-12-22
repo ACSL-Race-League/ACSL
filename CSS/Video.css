@@ -2,7 +2,7 @@
     position: relative;
     width: 100%;
     padding-bottom: 56.25%;
-    height: 0;
+    height: auto;
 }
 
 .video iframe {
@@ -10,13 +10,9 @@
     top: 0;
     left: 50%;               /* zet midden van iframe op midden container */
     transform: translateX(-50%); /* schuif iframe terug zodat hij echt centreert */
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
     border: 0;
-}
-
-.unmute {
-    margin-top: -180px;
 }
 
 article {
@@ -24,9 +20,7 @@ article {
     margin-bottom: 0;
 }
 
-footer{
-    margin-top: 100px;
-}
+
 
 @media screen and (min-width: 800px) {
     article {
@@ -35,6 +29,23 @@ footer{
 
     footer{
         margin-top: 0;
+    }
+
+    .video iframe {
+        position: absolute;
+        top: 0;
+        left: 50%;               /* zet midden van iframe op midden container */
+        transform: translateX(-50%); /* schuif iframe terug zodat hij echt centreert */
+        width: 80%;
+        height: 80%;
+        border: 0;
+    }
+
+    .video {
+        position: relative;
+        width: 100%;
+        padding-bottom: 56.25%;
+        height: 0;
     }
 
 }
