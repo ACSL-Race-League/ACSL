@@ -139,4 +139,8 @@ h1 {
         background-color: rgba(255, 255, 255, 0.9);
         border-bottom: black 2px solid;
     }
+
+    .team:first-child{
+        margin-top: auto;
+    }
 }
