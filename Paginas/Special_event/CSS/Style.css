@@ -6,6 +6,7 @@ main {
     background-repeat: no-repeat;
     background-position: center;
     border-bottom: 10px solid red;
+    border-top: 10px solid red;
 }
 
 main picture {
@@ -34,6 +35,25 @@ article p {
     text-align: center;
     width: 100%;
     padding-bottom: 20px;
+}
+
+.ka {
+    background-image: url("../../../Images/ka.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
+.kasection div {
+    border-bottom: red solid 10px;
+    text-align: justify;
+}
+
+.kasection article div {
+    text-align: center;
+    border: none;
 }
 
 @media (min-width: 800px) {
