@@ -37,25 +37,6 @@ article p {
     padding-bottom: 20px;
 }
 
-.ka {
-    background-image: url("../../../Images/ka.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    aspect-ratio: 16/9;
-}
-
-.kasection div {
-    border-bottom: red solid 10px;
-    text-align: justify;
-}
-
-.kasection article header {
-    text-align: center;
-    border: none;
-}
-
 @media (min-width: 800px) {
     main {
         background-image: url("../../../Images/Nurburgring.png");
