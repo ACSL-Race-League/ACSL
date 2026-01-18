@@ -46,11 +46,17 @@ main a:first-child {
     background-image: url("../../../Images/standingsphone.png");
     background-repeat: no-repeat;
     background-size: cover;
+    height: 75vh;
 }
 
 .klassement > div, .row {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    text-align: right;
+}
+
+.row p:first-child {
+    text-align: left;
 }
 
 .row {
@@ -65,6 +71,9 @@ main a:first-child {
     height: 60vh;
 }
 
+.nodropround {
+    display: none;
+}
 
 @media screen and (min-width: 800px) {
     .klasse {
@@ -84,6 +93,7 @@ main a:first-child {
         border-radius: 20px;
         margin: 3% auto;
         overflow-x: hidden;
+        height: auto;
     }
 
     .klassement ol {
@@ -102,5 +112,17 @@ main a:first-child {
     .klassement {
         background-color: rgba(255, 255, 255, 0.8);
         background-image: none;
+    }
+
+    .nodropround {
+        display: grid;
+    }
+
+    .klassement > div, .row {
+        grid-template-columns: 4fr 1fr 1fr;
+    }
+
+    .row p:last-child {
+        padding-right: 10px;
     }
 }
